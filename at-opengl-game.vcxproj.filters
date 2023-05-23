@@ -818,10 +818,257 @@
     <ClInclude Include="include\EBO.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\port\AndroidJNI\AndroidJNIIOSystem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\port\AndroidJNI\BundledAssetIOSystem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\aabb.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\ai_assert.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\anim.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Base64.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\BaseImporter.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Bitmap.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\BlobIOSystem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\ByteSwapper.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\camera.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\cexport.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\cfileio.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\cimport.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\ColladaMetaData.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\color4.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\commonMetaData.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\config.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\CreateAnimMesh.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\DefaultIOStream.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\defs.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Exceptional.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Exporter.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\fast_atof.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\GenericProperty.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\GltfMaterial.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Hash.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Importer.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\importerdesc.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\IOStream.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\IOStreamBuffer.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\IOSystem.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\light.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\LineSplitter.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\LogAux.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Logger.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\LogStream.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\material.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\MathFunctions.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\matrix3x3.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\matrix4x4.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\MemoryIOWrapper.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\mesh.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\metadata.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\NullLogger.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\ObjMaterial.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\ParsingUtils.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\pbrmaterial.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\postprocess.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Profiler.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\qnan.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\quaternion.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\RemoveComments.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\scene.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\SceneCombiner.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\SGSpatialSort.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\SmallVector.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\SmoothingGroups.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\SpatialSort.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\StandardShapes.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\StreamReader.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\StreamWriter.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\StringComparison.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\StringUtils.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Subdivision.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\texture.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\TinyFormatter.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\types.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\vector2.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\vector3.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\version.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\Vertex.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\XmlParser.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\XMLTools.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\assimp\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="libraries\GLFW\lib\glfw3.lib" />
     <Library Include="libraries\GLFW\lib\glfw3_mt.lib" />
+    <Library Include="libraries\assimp\lib\assimp-vc143-mt.lib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\shaders\base.vert" />
@@ -1226,6 +1473,32 @@
       <Filter>Pliki nagłówkowe</Filter>
     </None>
     <None Include="libraries\glm\glm\gtx\wrap.inl">
+      <Filter>Pliki nagłówkowe</Filter>
+    </None>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+    <None Include="libraries\assimp\include\assimp\color4.inl">
+      <Filter>Pliki nagłówkowe</Filter>
+    </None>
+    <None Include="libraries\assimp\include\assimp\material.inl">
+      <Filter>Pliki nagłówkowe</Filter>
+    </None>
+    <None Include="libraries\assimp\include\assimp\matrix3x3.inl">
+      <Filter>Pliki nagłówkowe</Filter>
+    </None>
+    <None Include="libraries\assimp\include\assimp\matrix4x4.inl">
+      <Filter>Pliki nagłówkowe</Filter>
+    </None>
+    <None Include="libraries\assimp\include\assimp\quaternion.inl">
+      <Filter>Pliki nagłówkowe</Filter>
+    </None>
+    <None Include="libraries\assimp\include\assimp\SmoothingGroups.inl">
+      <Filter>Pliki nagłówkowe</Filter>
+    </None>
+    <None Include="libraries\assimp\include\assimp\vector2.inl">
+      <Filter>Pliki nagłówkowe</Filter>
+    </None>
+    <None Include="libraries\assimp\include\assimp\vector3.inl">
       <Filter>Pliki nagłówkowe</Filter>
     </None>
   </ItemGroup>
