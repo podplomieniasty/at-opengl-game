@@ -71,11 +71,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)\libraries\assimp\include\;$(SolutionDir)\libraries\stb\include\;$(SolutionDir)\libraries\glm\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\libraries\GLFW\include\;$(SolutionDir)\libraries\glad\include\;$(SolutionDir)\include\;</IncludePath>
+    <IncludePath>$(SolutionDir)\libraries\json\include\;$(SolutionDir)\libraries\assimp\include\;$(SolutionDir)\libraries\stb\include\;$(SolutionDir)\libraries\glm\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\libraries\GLFW\include\;$(SolutionDir)\libraries\glad\include\;$(SolutionDir)\include\;</IncludePath>
     <LibraryPath>$(SolutionDir)\libraries\assimp\lib\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)\libraries\GLFW\lib\;</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(SolutionDir)\libraries\assimp\include\;$(SolutionDir)\libraries\stb\include\;$(SolutionDir)\libraries\glm\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\libraries\GLFW\include\;$(SolutionDir)\libraries\glad\include\;$(SolutionDir)\include\;</IncludePath>
+    <IncludePath>$(SolutionDir)\libraries\json\include\;$(SolutionDir)\libraries\assimp\include\;$(SolutionDir)\libraries\stb\include\;$(SolutionDir)\libraries\glm\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\libraries\GLFW\include\;$(SolutionDir)\libraries\glad\include\;$(SolutionDir)\include\;</IncludePath>
     <LibraryPath>$(SolutionDir)\libraries\assimp\lib\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)\libraries\GLFW\lib\;</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -116,7 +116,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glfw3.lib;assimp-vc143-mt.lib;</AdditionalDependencies>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glfw3.lib;assimp-vc140-mt.lib;</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -133,7 +133,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glfw3.lib;assimp-vc143-mt.lib;</AdditionalDependencies>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glfw3.lib;assimp-vc140-mt.lib;</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -143,6 +143,7 @@
     <ClCompile Include="source\Camera.cpp" />
     <ClCompile Include="source\EBO.cpp" />
     <ClCompile Include="source\Mesh.cpp" />
+    <ClCompile Include="source\Model.cpp" />
     <ClCompile Include="source\Shader.cpp" />
     <ClCompile Include="source\stb.cpp" />
     <ClCompile Include="source\Texture.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="include\Camera.h" />
     <ClInclude Include="include\EBO.h" />
     <ClInclude Include="include\Mesh.h" />
+    <ClInclude Include="include\Model.h" />
     <ClInclude Include="include\Shader.h" />
     <ClInclude Include="include\Texture.h" />
     <ClInclude Include="include\VAO.h" />
@@ -487,15 +489,18 @@
     <ClInclude Include="libraries\glm\glm\vec3.hpp" />
     <ClInclude Include="libraries\glm\glm\vec4.hpp" />
     <ClInclude Include="libraries\glm\glm\vector_relational.hpp" />
+    <ClInclude Include="libraries\json\include\json\json.h" />
     <ClInclude Include="libraries\stb\include\stb\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <Library Include="libraries\assimp\lib\assimp-vc140-mt.lib" />
     <Library Include="libraries\assimp\lib\assimp-vc143-mt.lib" />
     <Library Include="libraries\GLFW\lib\glfw3.lib" />
     <Library Include="libraries\GLFW\lib\glfw3_mt.lib" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+    <None Include="assimp-vc140-mt.dll" />
     <None Include="libraries\assimp\include\assimp\color4.inl" />
     <None Include="libraries\assimp\include\assimp\material.inl" />
     <None Include="libraries\assimp\include\assimp\matrix3x3.inl" />
@@ -504,6 +509,9 @@
     <None Include="libraries\assimp\include\assimp\SmoothingGroups.inl" />
     <None Include="libraries\assimp\include\assimp\vector2.inl" />
     <None Include="libraries\assimp\include\assimp\vector3.inl" />
+    <None Include="libraries\assimp\lib\assimp-vc140-mt.dll" />
+    <None Include="libraries\assimp\lib\assimp-vc140-mt.exp" />
+    <None Include="libraries\assimp\lib\assimp-vc140-mt.pdb" />
     <None Include="libraries\glm\glm\detail\func_common.inl" />
     <None Include="libraries\glm\glm\detail\func_common_simd.inl" />
     <None Include="libraries\glm\glm\detail\func_exponential.inl" />
@@ -639,6 +647,8 @@
     <None Include="libraries\glm\glm\gtx\vector_query.inl" />
     <None Include="libraries\glm\glm\gtx\wrap.inl" />
     <None Include="README.md" />
+    <None Include="resources\models\sword\scene.bin" />
+    <None Include="resources\models\upo kolumna\untitled.bin" />
     <None Include="resources\shaders\base.frag" />
     <None Include="resources\shaders\base.vert" />
   </ItemGroup>

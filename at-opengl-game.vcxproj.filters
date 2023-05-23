@@ -48,6 +48,9 @@
     <ClCompile Include="source\EBO.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="source\Model.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="libraries\glad\include\glad\glad.h">
@@ -1064,11 +1067,18 @@
     <ClInclude Include="libraries\assimp\include\assimp\ZipArchiveIOSystem.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="include\Model.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\json\include\json\json.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="libraries\GLFW\lib\glfw3.lib" />
     <Library Include="libraries\GLFW\lib\glfw3_mt.lib" />
     <Library Include="libraries\assimp\lib\assimp-vc143-mt.lib" />
+    <Library Include="libraries\assimp\lib\assimp-vc140-mt.lib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\shaders\base.vert" />
@@ -1500,6 +1510,16 @@
     </None>
     <None Include="libraries\assimp\include\assimp\vector3.inl">
       <Filter>Pliki nagłówkowe</Filter>
+    </None>
+    <None Include="libraries\assimp\lib\assimp-vc140-mt.dll" />
+    <None Include="libraries\assimp\lib\assimp-vc140-mt.exp" />
+    <None Include="libraries\assimp\lib\assimp-vc140-mt.pdb" />
+    <None Include="assimp-vc140-mt.dll" />
+    <None Include="resources\models\sword\scene.bin">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="resources\models\upo kolumna\untitled.bin">
+      <Filter>Pliki zasobów</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -8,6 +8,9 @@
 #include <Texture.h>
 #include <Mesh.h>
 
+#include <assimp/mesh.h>
+#include <Model.h>
+
 #define WIN_WIDTH 800
 #define WIN_HEIGHT 800
 #define WIN_TITLE "Bialas, Burzec i Kijowski - Elektryczne Boogaloo 2"
@@ -89,7 +92,7 @@ int main() {
 
 	Mesh floor(verts, ind, tex);
 
-
+	Model sword("resources/models/upo kolumna/untitled.gltf");
 
 	// ---- OBIEKTY GRY ---- //
 
@@ -123,6 +126,8 @@ int main() {
 		camera.inputs(window);
 		camera.updateMatrix(45.0f, 0.1f, 100.0f);
 		floor.draw(baseShaderProg, camera);
+		sword.draw(baseShaderProg, camera);
+
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();
